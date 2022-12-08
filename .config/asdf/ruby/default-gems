@@ -1,0 +1,6 @@
+brakeman
+bundler
+bundler-audit
+bundler-stats
+pry
+rubocop
