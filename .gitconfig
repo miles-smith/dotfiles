@@ -1,6 +1,7 @@
 [user]
 	name = Miles Smith
 	email = miles-smith@users.noreply.github.com
+	signingKey = 88C14BE9AFA4B507
 [core]
 	excludesfile = ~/.gitignore
 [filter "lfs"]
@@ -11,4 +12,6 @@
 [init]
 	defaultBranch = main
 [push]
-	autoSetupRemote = true
+  autoSetupRemote = true
+[commit]
+	gpgSign = true
