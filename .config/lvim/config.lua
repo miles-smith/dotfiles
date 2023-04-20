@@ -161,6 +161,10 @@ lvim.builtin.treesitter.highlight.enable = true
 --     filetypes = { "javascript", "python" },
 --   },
 -- }
+local linters = require "lvim.lsp.null-ls.linters"
+linters.setup {
+  { command = "tsc", filetypes = { "typescript" } }
+}
 
 -- Additional Plugins
 -- lvim.plugins = {
